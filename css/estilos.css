@@ -1,0 +1,179 @@
+/*Limpar formatações padrão*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+/*Formatando o body*/
+body{
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #e6e6e6;
+}
+
+/*Formatação das imagens da página*/
+img{
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+/*Formatação do cabeçalho*/
+#cabecalho{
+	background: #FACC2E;
+	font-weight: bold;
+	text-align: center;
+	color: #FFF;
+	padding: 20px;
+}
+
+/*Formatação do corpo da página*/
+#corpo{
+	width: 920px;
+	margin: 10px auto;
+	position: relative;
+}
+
+
+
+/*ÍNICIO DO MENU*/
+.menu{
+	padding: 15px 0px 5px 0px;
+	font-weight: bold;
+}
+/*Formatando os links*/
+.menu a{
+	text-decoration: none;
+	color: white;
+}
+/*Quando passa o mouse sobre os links*/
+.menu a:hover{
+	background: #FFF;
+	color: #FACC2E;
+}
+/*Espaçamento entre os itens*/
+.menu *{
+	padding: 10px;
+}
+/*FIM DO MENU*/
+
+
+
+/*ÍNICIO DAS POSTAGENS*/
+.postagens{
+	background: white;
+	width: 640px;
+	padding: 20px;
+	margin-bottom: 10px;
+}
+/*Formatando os links*/
+.postagens a{
+	color: #FACC2E;
+	text-decoration: none;
+}
+/*Quando passa o mouse sobre os links*/
+.postagens a:hover{
+	text-decoration: underline;
+}
+/*Formatando os títulos*/
+.postagens h2{
+	color: #FACC2E;
+}
+/*FIM DAS POSTAGENS*/
+
+
+
+/*ÍNICIO DOS RECENTES*/
+.recentes{
+	background: white;
+	width: 200px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	padding: 10px;
+	font-size: 0.9em;
+}
+/*Formatando o título*/
+.recentes h3{
+	color: #2E2E2E;
+	background: #BDBDBD;
+	padding: 5px;
+}
+/*Formatando os links*/
+.recentes a{
+	color: #FACC2E;
+	text-decoration: none;
+}
+/*Quando o mouse passa por cima dos links*/
+.recentes a:hover{
+	text-decoration: underline;
+}
+/*Espaçamento entre os itens*/
+.recentes *{
+	padding: 5px;
+}
+/*FIM DOS RECENTES*/
+
+
+
+/*ÍNICIO DAS CATEGORIAS*/
+.categorias{
+	background: white;
+	width: 200px;
+	position: absolute;
+	right: 0px;
+	top: 200px;
+	padding: 10px;
+	font-size: 0.9em;
+}
+/*Formatando o título*/
+.categorias h3{
+	color: #2E2E2E;
+	background: #BDBDBD;
+	padding: 5px;
+}
+/*Formatando os links*/
+.categorias a{
+	color: orange;
+	text-decoration: none;
+	font-size: 1.1em;
+	display: block;
+}
+/*Quando o mouse passa por cima*/
+.categorias a:hover{
+	text-decoration: underline;
+}
+/*FIM DAS CATEGORIAS*/
+
+
+
+/*ÍNICIO RODAPÉ*/
+.rodape{
+	background: #BDBDBD;
+	text-align: center;
+	padding: 10px;
+	font-weight: bold;
+}
+/*FIM DO RODAPÉ*/
+
+
+
+/*O "Tec" do TecBlog*/
+.titulo1{
+	color: #2E2E2E;
+	display: inline-block;
+}
+
+/*Formatação da data da postagem*/
+.data-postagem{
+	font-size: 0.8em;
+	border-bottom: 1px solid #f4f4f4;
+	padding-bottom: 10px;
+	display: block;
+}
+
+/*linha do leia mais dos recentes*/
+.linha-leia-mais{
+	display: block;
+	border-bottom: 1px dotted #6d6161;
+	padding: 5px 0px;
+}
